@@ -1,5 +1,4 @@
 import React from "react";
-import { BackgroundBeams } from "./ui/background-beams";
 
 const Somaire = () => {
   return (

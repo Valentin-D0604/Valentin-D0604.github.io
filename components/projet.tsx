@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BackgroundBeams } from "./ui/background-beams";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import { cn } from "@/lib/utils";
 
 const Projets = () => {
   return (
