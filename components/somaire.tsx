@@ -31,7 +31,7 @@ const Somaire = () => {
 
         <a href="#Experience" className="flex items-center gap-4 hover:text-teal-400 transition-colors">
           <span className="flex items-center justify-center w-12 h-12 text-2xl font-bold bg-teal-500 text-black rounded-lg shadow-lg"> 5 </span>
-          Experience professionelles
+          Experiences professionelles
         </a>
 
         <a href="#contact" className="flex items-center gap-4 hover:text-teal-400 transition-colors">

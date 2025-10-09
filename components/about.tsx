@@ -12,8 +12,8 @@ const About = () => {
          </div>
        <TextGenerateEffect
                 className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
-                words="Je suis étudiant en informatique principalement dans le milieu du jeu vidéo. Je suis quelqu'un qui cherchera toujours à persévérer pour atteindre mes objectifs. Je suis également quelqu'un de pationnée par beaucoup de choses comme les jeuxvidéo, principalement solo avec une longue histoire et des personnages interessant ou même la lecture et les légos. Je rève de developper des jeux vidéo depuis monplus jeune âge et de pouvoir donner vie a plein d'idée que j'obtient "
-              />
+words="Je suis étudiant en informatique, principalement dans le milieu du jeu vidéo. Je cherche toujours à persévérer pour atteindre mes objectifs. Je suis également quelqu'un de passionné par beaucoup de sujets comme les jeux vidéo, notamment seul avec une longue histoire et des personnages intéressants, ou même la lecture et les Legos. Je rêve de développer des jeux vidéo depuis mon plus jeune âge et de pouvoir donner vie à plein d'idées que j'obtiens."
+/>
     </section>
   );
 };

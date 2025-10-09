@@ -17,18 +17,19 @@ export default function Demineur() {
         />
   
         <p className="text-lg leading-relaxed mb-6">
-         Ce projet est un projet important car il fut réaliser en groupe de 10 personnes composé à la fois de développeurs, d'artistes et de commerciaux sur une durée de deux semaines.
-          L'objectif visé était donc de simuler au maximum le monde du travail lors de la réalisation du projet en c++. 
-          </p>
-          <p className="text-lg leading-relaxed mb-6">
-           Durant les deux semaines que nous avions a disposition nous avons pu réaliser un platformer 2D basé sur le style solarpunk.
-            Le personnage principale peux utiliser le vent pour faire des doubles sauts, des dash, attaquer avec des boules d'air et même parer les attaques ennemies 
-            pour renvoyer les projectiles. Le jeu détient 3 ennemis entièrement différents dont un ayant plusieurs formes 
-            un boss final ayant plusieurs attaques et même la capacité de créer nous-mêmes nos propres cartes sur un bloc-notes et puis de les utiliser dans le jeu.</p>
-             <p className="text-lg leading-relaxed mb-6">
-            Durant ce projet j'ai travaillé sur la partie gameplay du jeu, avec les ennemis, les mécaniques du personnage et même la création de cartes principalement. 
-            J'ai pu lors de ce projet mettre en avant mes capacité de travail en équipe et de communication avec les autres personnes de mon groupes
-        </p>
+  Ce projet est un projet important car il fut réalisé en groupe de 10 personnes, composé à la fois de développeurs, d'artistes et de commerciaux, sur une durée de deux semaines.
+  L'objectif visé était donc de simuler au maximum le monde du travail lors de la réalisation du projet en C++.
+</p>
+<p className="text-lg leading-relaxed mb-6">
+  Durant les deux semaines que nous avions à disposition, nous avons pu réaliser un platformer 2D basé sur le style solarpunk.
+  Le personnage principal peut utiliser le vent pour faire des doubles sauts, des dashs, attaquer avec des boules d'air et même parer les attaques ennemies 
+  pour renvoyer les projectiles. Le jeu détient 3 ennemis entièrement différents, dont un ayant plusieurs formes, 
+  un boss final ayant plusieurs attaques et même la capacité de créer nous-mêmes nos propres cartes sur un bloc-notes puis de les utiliser dans le jeu.
+</p>
+<p className="text-lg leading-relaxed mb-6">
+  Durant ce projet, j'ai travaillé sur la partie gameplay du jeu, avec les ennemis, les mécaniques du personnage et même la création de cartes principalement. 
+  J'ai pu, lors de ce projet, mettre en avant mes capacités de travail en équipe et de communication avec les autres personnes de mon groupe.
+</p>
   
         <a 
           href="https://github.com/Valentin-D0604/platformer-2d-solarpunk" 

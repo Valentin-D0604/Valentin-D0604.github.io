@@ -16,13 +16,14 @@ export default function Demineur() {
           className="rounded-lg mb-6 max-w-2xl"
         />
   
-        <p className="text-lg leading-relaxed mb-6">
-         Ce projet est un démineur réalisé seul en c++ et étant mon premier projet en c++.  </p>
-         <p className="text-lg leading-relaxed mb-6">
-         Dans ce démineur le joueur a la capacité de chosir entre trois difficultés différentes gérant la taille de la grille, puis 
-         de montrer une première case, qui ne sera jamais une mine et qui rélélera des case autour d'elle. Le joueur pourra ensuite jouer au démineur classique où
-          les mines seront générées aléatoirement,et le joueur aura la capacité de poser un drapeau, révélé une case , perdre, gagner et relancer une partie à la fin.
-        </p>
+     <p className="text-lg leading-relaxed mb-6">
+  Ce projet est un démineur réalisé seul en C++ et étant mon premier projet en C++.
+</p>
+<p className="text-lg leading-relaxed mb-6">
+  Dans ce démineur, le joueur a la capacité de choisir entre trois difficultés différentes gérant la taille de la grille, puis 
+  de montrer une première case, qui ne sera jamais une mine et qui révélera des cases autour d'elle. Le joueur pourra ensuite jouer au démineur classique où
+  les mines seront générées aléatoirement, et le joueur aura la capacité de poser un drapeau, révéler une case, perdre, gagner et relancer une partie à la fin.
+</p>
   
         <a 
           href="https://github.com/Valentin-D0604/Minesweeper.git" 

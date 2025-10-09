@@ -10,8 +10,7 @@ const Skills = () => {
       </div>
              <TextGenerateEffect
                             className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
-                            words="hardskills : Je maîtrise le C++ le C et j'ai des notions du Java. softskills : Sérieux et curieux je met tout en oeuvre pour atteindre ses objectifs et apprendre. Je peux travailler en équipe ou en autonomie et m'adapter à toutes situations."
-                          />
+                            words="Hardskills : je maîtrise le C++, le C et j'ai des notions de Java. Softskills : sérieux et curieux, je mets tout en œuvre pour atteindre mes objectifs et apprendre. Je peux travailler en équipe ou en autonomie et m'adapter à toutes situations."/>
     </section>
 
   );

@@ -17,18 +17,19 @@ export default function Demineur() {
         />
   
         <p className="text-lg leading-relaxed mb-6">
-          Ce projet est un jeu en tour par tour réalisé seul avec c++. utilisant les base du c++ et étant l'un de mes premiers projet.</p>
-          <p className="text-lg leading-relaxed mb-6">
-          Dans ce jeu le joueur (M) a la capacité de se déplacer dans un donjon rempli d'ennemis
-          et de les attaquer et les tuer pour obtenir differentes amélioration pour par exemple
-           améliorer son épée, son armure ou bien gagner des potions pouvant le soigner. Le but du jeu est de  réussir à sortir du donjon une fois tous les ennemis éliminés.
-           Le jeu se joue en tour par tour entre le joueur et l'ennemi. Où le joueur peut réaliser plusieur action comme attaquer ou se soigner. 
-           Chaque type d'ennemi detiennent leur propres capacité qu'ils peuvent utiliser comme le spectre qui peut s'enfuire du combats. Les ennemies peuvent également
-           attaquer et avec chacun leur propres statistiques de vie d'attaques, defense etc.
-        </p>
-         <p className="text-lg leading-relaxed mb-6">
-          dans ce projet j'ai pu coder le fonctionnement de chaque ennemi ainsi que les differentes capacité du joueur.
-         </p>
+  Ce projet est un jeu en tour par tour réalisé seul avec C++, utilisant les bases du C++ et étant l'un de mes premiers projets.
+</p>
+<p className="text-lg leading-relaxed mb-6">
+  Dans ce jeu, le joueur (M) a la capacité de se déplacer dans un donjon rempli d'ennemis
+  et de les attaquer et les tuer pour obtenir différentes améliorations, par exemple
+  améliorer son épée, son armure ou bien gagner des potions pouvant le soigner. Le but du jeu est de réussir à sortir du donjon une fois tous les ennemis éliminés.
+  Le jeu se joue en tour par tour entre le joueur et l'ennemi, où le joueur peut réaliser plusieurs actions comme attaquer ou se soigner. 
+  Chaque type d'ennemi détient ses propres capacités qu'il peut utiliser, comme le spectre qui peut s'enfuir du combat. Les ennemis peuvent également
+  attaquer, chacun avec leurs propres statistiques de vie, d'attaque, de défense, etc.
+</p>
+<p className="text-lg leading-relaxed mb-6">
+  Dans ce projet, j'ai pu coder le fonctionnement de chaque ennemi ainsi que les différentes capacités du joueur.
+</p>
   
         <a 
           href="https://github.com/Valentin-D0604/DonjonGame"

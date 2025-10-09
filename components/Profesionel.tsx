@@ -10,8 +10,8 @@ const Profesionel = () => {
       </div>
        <TextGenerateEffect
                             className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
-                            words="Aout 2025: stage de développement WEB au sein de la société 'FINDS' où j'ai découvert le fonctionnement d'une entreprise. J'ai également pu faire développement web avec plusieur mission, comme crée une page de FAQ avec differents droits montrant uniquement les questions utiles a chaque profil sur l'application, corriger certaines problème de database ou réaliser des traduction et problème de mode sombre. J'ai pu mettre en avant mes capacité de travail en équipe et de determination pour apprendre un language que je ne connaisais pas en deux mois. J'ai réussi a accomplir toutes mes missions     2021: réalisation d'un stage de 3ème dans l'école EPITECH. me permettant de découvrir le millieu des écoles superieur et de réaliser des missions de codes en python pour apprendre ce language et son fonctionnement en plus de confirmer mon envie de faire de developpement"
-                          />
+                          words="Août 2025 : stage de développement web au sein de la société 'FINDS' où j'ai découvert le fonctionnement d'une entreprise. J'ai également pu faire du développement web avec plusieurs missions, comme créer une page de FAQ avec différents droits montrant uniquement les questions utiles à chaque profil sur l'application, corriger certains problèmes de base de données ou réaliser des traductions et résoudre des problèmes de mode sombre. J'ai pu mettre en avant mes capacités de travail en équipe et de détermination pour apprendre un langage que je ne connaissais pas. J'ai réussi à accomplir toutes mes missions.     2021 : réalisation d'un stage de 3ème dans l'école EPITECH, me permettant de découvrir le milieu des écoles supérieures et de réaliser des missions de code en Python pour apprendre ce langage et son fonctionnement, en plus de confirmer mon envie de faire du développement."
+/>
     </section>
     
   );
