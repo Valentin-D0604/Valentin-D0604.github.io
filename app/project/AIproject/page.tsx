@@ -17,19 +17,19 @@ export default function Demineur() {
         />
   
         <p className="text-lg leading-relaxed mb-6">
-  Ce projet est un projet fait en C++ par groupe de deux dans le but de comprendre le fonctionnement des state machines des IA, qui sont souvent utilisées dans les jeux vidéo,
+  Ce projet est fait en C++ par groupe de deux dans le but de comprendre le fonctionnement des state machines des IA, souvent utilisées dans les jeux vidéo,
   pour les ennemis par exemple.
 </p>
 <p className="text-lg leading-relaxed mb-6">
   Il s'agit d'un jeu de rugby utilisant des intelligences artificielles basées sur des state machines, 
-  ayant la capacité d'aller marquer, de récupérer la balle et même de faire des passes au joueur derrière eux uniquement. En effet, ce jeu ne détient pas de joueur,
-  mais uniquement des IA avec des state machines. Comme vous pouvez le voir sur l'image, chaque cercle (les joueurs) détient un état écrit au-dessus de sa tête, 
-  et le joueur ayant la balle peut faire des passes au joueur derrière lui (mis en évidence par les lignes violettes).
+  ayant la capacité d'aller marquer, de récupérer la balle et même de faire des passes aux joueurs arrières. En effet, ce jeu détient
+   uniquement des joueurs en IA avec des state machines. Comme vous pouvez le voir sur l'image, au dessus de chaque cercle (qui représente les joueurs) est écrit leur état.
+  Le joueur ayant la balle peut faire des passes aux joueurs derrière lui (mis en évidence par les lignes violettes).
 </p>
 <p className="text-lg leading-relaxed mb-6">
   Pour ce projet, j'ai dû travailler sur les state machines pour créer des états et des phases de transition permettant de passer d'un état à un autre. 
-  Par exemple, si la balle est au sol, il y a un changement d'état pour chaque joueur. Et chaque état fonctionne différemment, avec par exemple :
-  si la balle est au sol, j'essaye de l'obtenir. Ce projet m'a permis de mettre en avant mes capacités de réflexion pour réussir à optimiser au maximum chaque état,
+  Chaque état fonctionne différemment, avec par exemple :
+  si la balle est au sol, j'essaye de l'obtenir. Ce projet m'a permis de mettre en avant mes capacités de réflexion pour optimiser au maximum chaque état,
   en faire le plus possible et permettre le plus de possibilités pour chaque joueur.
 </p>
   

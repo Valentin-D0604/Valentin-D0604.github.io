@@ -17,16 +17,16 @@ export default function Demineur() {
         />
   
        <p className="text-lg leading-relaxed mb-6">
-  Ce projet est un casse-brique fait avec C++ par groupes de deux en créant et utilisant un ECS (Entity Component System). Cela ayant pour objectif d'apprendre 
-  l'utilisation d'un ECS (communément utilisé dans les moteurs de jeux) ainsi que le fonctionnement du moteur derrière.
+  Ce projet est un casse-brique fait avec C++ en groupe de deux en créant et utilisant un ECS (Entity Component System). Cela avait pour objectif d'apprendre 
+  l'utilisation d'un ECS (communément utilisé dans les moteurs de jeux) ainsi que le fonctionnement de ce dernier.
 </p>
 <p className="text-lg leading-relaxed mb-6">
-  Dans ce jeu, le joueur a un pad qu'il peut déplacer de gauche à droite et une balle qui rebondit sur le pad. 
-  Il y a également des briques sur lesquelles la balle rebondit, pouvant donner des balles supplémentaires une fois cassées,
-  et différents types de briques pouvant prendre un ou plusieurs coups différents avant de se casser.
+  Dans ce jeu, le joueur a un pad qu'il peut déplacer de gauche à droite et une balle qui rebondit sur le pad pour aller casser des briques. 
+  Certaines briques peuvent donner des balles supplémentaires une fois cassées,
+  et différentes briques pouvant se casser en un difféent nombres de coups.
 </p>
 <p className="text-lg leading-relaxed mb-6">
-  J'ai pu travailler sur la partie gameplay de ce code avec, par exemple, le fonctionnement des power-ups ainsi que de la balle et de l'ECS.
+  J'ai pu travailler sur la partie gameplay de ce code avec le fonctionnement des power-ups ainsi que de la balle et de l'ECS.
   J'ai pu mettre en avant mes compétences de communication et surtout d'apprentissage pour apprendre et comprendre le fonctionnement d'un ECS.
 </p>
   

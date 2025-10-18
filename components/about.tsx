@@ -12,7 +12,7 @@ const About = () => {
          </div>
        <TextGenerateEffect
                 className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
-words="Je suis étudiant en informatique, principalement dans le milieu du jeu vidéo. Je cherche toujours à persévérer pour atteindre mes objectifs. Je suis également quelqu'un de passionné par beaucoup de sujets comme les jeux vidéo, notamment seul avec une longue histoire et des personnages intéressants, ou même la lecture et les Legos. Je rêve de développer des jeux vidéo depuis mon plus jeune âge et de pouvoir donner vie à plein d'idées que j'obtiens."
+words="Je suis étudiant en informatique, principalement dans le milieu du jeu vidéo. Persévérant je fais en sorte de toujours atteindre mes objectifs. Je suis également quelqu'un de passionné par beaucoup de sujets comme les jeux vidéo, la lecture, les echecs et les Legos. Je rêve de développer des jeux vidéo depuis mon plus jeune âge et de pouvoir donner vie à toutes mes idées"
 />
     </section>
   );

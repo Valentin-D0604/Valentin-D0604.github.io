@@ -39,7 +39,7 @@ const Hero = () => {
 
           <button >
           <a
-          href="/CV_2025-10-04_valentin_david.pdf"
+          href="/CV_2025-10-18_valentin_david (1).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-teal-600 hover:bg-teal-500 text-white px-5 py-2 rounded-lg shadow-md transition">

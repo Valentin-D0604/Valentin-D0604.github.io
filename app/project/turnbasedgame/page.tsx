@@ -17,13 +17,13 @@ export default function Demineur() {
         />
   
         <p className="text-lg leading-relaxed mb-6">
-  Ce projet est un jeu en tour par tour réalisé seul avec C++, utilisant les bases du C++ et étant l'un de mes premiers projets.
+  Ce projet est un jeu en tour par tour réalisé en autonomie avec C++, utilisant les bases du C++ et étant l'un de mes premiers projets.
 </p>
 <p className="text-lg leading-relaxed mb-6">
-  Dans ce jeu, le joueur (M) a la capacité de se déplacer dans un donjon rempli d'ennemis
-  et de les attaquer et les tuer pour obtenir différentes améliorations, par exemple
-  améliorer son épée, son armure ou bien gagner des potions pouvant le soigner. Le but du jeu est de réussir à sortir du donjon une fois tous les ennemis éliminés.
-  Le jeu se joue en tour par tour entre le joueur et l'ennemi, où le joueur peut réaliser plusieurs actions comme attaquer ou se soigner. 
+  Dans ce jeu, le joueur (M) a la capacité de se déplacer dans un donjon rempli d'ennemis,
+  de les attaquer et de les tuer pour obtenir différentes améliorations. Par exemple
+  améliorer son épée, son armure ou gagner des potions pouvant le soigner. Le but du jeu est de réussir à sortir du donjon quand tous les ennemis éliminés.
+  Le jeu se joue en tour par tour entre le joueur et l'ennemi. Le joueur peut réaliser plusieurs actions comme attaquer ou se soigner. 
   Chaque type d'ennemi détient ses propres capacités qu'il peut utiliser, comme le spectre qui peut s'enfuir du combat. Les ennemis peuvent également
   attaquer, chacun avec leurs propres statistiques de vie, d'attaque, de défense, etc.
 </p>

@@ -12,9 +12,9 @@ const Experience = () => {
         className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
           words={`2021 : Brevet des collèges obtenu à Saint Nicolas (Toulouse). 
 
-2024 : BAC STI2D option SIN (Sciences et Technologies de l’Industrie et du Développement Durable, option Systèmes Informatiques et Numériques) au lycée Aux Lazaristes La Salle (Lyon).
+2024 : BAC STI2D SIN (Sciences et Technologies de l’Industrie et du Développement Durable, option systèmes d'information et numérique) au lycée Aux Lazaristes La Salle (Lyon).
 
-2025+: Je réalise actuellement un bachelor dans une école de programmation.`}
+2025+: actuellement en deuxième année d'un bachelor dans une école de programmation. (GTech Lyon)`}
          />
     </section>
     
