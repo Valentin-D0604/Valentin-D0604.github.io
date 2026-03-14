@@ -13,7 +13,13 @@ const Projets = () => {
                             className="text-base sm:text-lg md:text-xl text-zinc-200 max-w-3xl leading-relaxed"
                             words="voici mes differents projets :"
                           />
-   <Link href="/project/Projetstudio" className="text-blue-500 hover:underline text-lg z-50">
+<Link href="/project/Moteur" className="text-blue-500 hover:underline text-lg z-50">
+  mon moteur de jeu
+</Link>
+<Link href="/project/Multi" className="text-blue-500 hover:underline text-lg z-50">
+  mon jeu Multijoueur
+</Link>
+<Link href="/project/Projetstudio" className="text-blue-500 hover:underline text-lg z-50">
   mon projet de platformer 2d
 </Link>
  <Link href="/project/shootthemup" className="text-blue-500 hover:underline text-lg z-50">
