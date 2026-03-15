@@ -1,50 +1,18 @@
-import Link from "next/link";
+import ProjectLayout from "@/components/ProjectLayout";
 
-export default function Demineur() {
-    return (
-        <main className ="relative bg-black-100
-        flex justify-center items-center flex-col overflow-hidden 
-        mx-auto sm:px-10 px-5">
-      <div>
-      <section className="min-h-screen bg-black text-white p-8">
-
-        <h2 className="text-4xl font-bold mb-6">Projet : Shoot them up</h2>
-
-        <img 
-          src="/shmup.png" 
-          alt="Capture écran du démineur" 
-          className="rounded-lg mb-6 max-w-2xl"
-        />
-  
-       <p className="text-lg leading-relaxed mb-6">
-  Ce projet est un shoot them up réalisé en C++ en groupe de deux.
-</p>
-<p className="text-lg leading-relaxed mb-6">
-  Dans ce shoot them up, le joueur a la capacité de tirer sur des vaisseaux ennemis 
-  et des météorites pour gagner des points et des power-ups. Ces derniers peuvent
-  améliorer son vaisseau, le soigner, gagner une traînée de feu temporaire et 
-  même obtenir un petit coéquipier pour l'aider. Ce jeu contient également un système de mini-boss tous les 500 points.
-  En parallèle, les ennemis deviennent plus forts avec l'augmentation des points.
-</p>
-<p className="text-lg leading-relaxed mb-6">
-  Dans ce projet, j'ai pu m'occuper de toute la partie gameplay avec les déplacements, les tirs du joueur, les power-ups, le fonctionnement des ennemis et des météorites. 
-  J'ai pu mettre en avant mes capacités de communication, ma curiosité pour me renseigner et m'inspirer d'autres shoot them up, ainsi que ma créativité pour créer les power-ups.
-</p>
-  
-        <a 
-          href="https://github.com/Valentin-D0604/ShootThemUp" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-        >
-          Voir sur GitHub
-        </a>
-
-         <Link href="/././#Projets" className="relative text-blue-500 hover:underline ml-[1300px] text-lg z-50">
-       page d'accueil
-        </Link>
-      </section>
-      </div>
-      </main>
-    );
-  }
+export default function ShootThemUp() {
+  return (
+    <ProjectLayout
+      title="Shoot Them Up"
+      subtitle="Jeu de tir vertical avec vagues d'ennemis et power-ups"
+      tags={["C++", "Gameplay", "Travail en équipe"]}
+      images={["/shmup.png"]}
+      githubUrl="https://github.com/Valentin-D0604/ShootThemUp"
+      description={[
+        "Ce projet est un shoot them up réalisé en C++ en groupe de deux.",
+        "Dans ce shoot them up, le joueur a la capacité de tirer sur des vaisseaux ennemis et des météorites pour gagner des points et des power-ups. Ces derniers peuvent améliorer son vaisseau, le soigner, gagner une traînée de feu temporaire et même obtenir un petit coéquipier pour l'aider. Ce jeu contient également un système de mini-boss tous les 500 points. En parallèle, les ennemis deviennent plus forts avec l'augmentation des points.",
+        "Dans ce projet, j'ai pu m'occuper de toute la partie gameplay avec les déplacements, les tirs du joueur, les power-ups, le fonctionnement des ennemis et des météorites. J'ai pu mettre en avant mes capacités de communication, ma curiosité pour me renseigner et m'inspirer d'autres shoot them up, ainsi que ma créativité pour créer les power-ups.",
+      ]}
+    />
+  );
+}
