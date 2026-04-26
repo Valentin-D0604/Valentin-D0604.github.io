@@ -6,7 +6,7 @@ export default function Multi() {
       title="Jeu multijoueur"
       subtitle="Arène multijoueur en réseau via UDP"
       tags={["C++", "Réseau", "UDP", "Travail en équipe"]}
-      images={["/Valentin.png", "/multi.png"]}
+      images={["/valentin.png", "/multi.png"]}
        links={[
         { label: "Voir sur GitHub", url: "https://github.com/Valentin-D0604/Projet-Multijoueur"},
       ]}
