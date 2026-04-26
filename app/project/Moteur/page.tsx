@@ -5,7 +5,9 @@ export default function Moteur() {
       title="Moteur de jeu"
       subtitle="Moteur ECS complet avec rendu DirectX 12"
       tags={["C++", "DirectX 12", "ECS", "Travail en équipe"]}
-      githubUrl="https://github.com/Valentin-D0604/EntreCote-Sytem.git"
+      links={[
+        { label: "Voir sur GitHub", url: "https://github.com/Valentin-D0604/EntreCote-Sytem.git"},
+      ]}
       description={[
         "Ce projet est un moteur de jeu réalisé par moi-même avec des amis dans le but de créer un moteur composé de 3 librairies statiques en utilisant DX12 pour le rendu. Il s'agit d'un moteur avec un fonctionnement d'ECS.",
         "Core : une librairie statique remplie de données et d'outils utilisables dans plusieurs projets (chrono, fonctions maths, stateMachine, parseur obj...).",
