@@ -3,6 +3,14 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const PROJECTS = [
+   {
+    href: "/project/GODS",
+    title: "Gods over drinks",
+    desc: "Un jeux de stratégie en multijoueurs sur Unity",
+    tags: ["Unity", "multijoueur", "Stratégie"],
+    date: "06/2026 - 08/2026",
+    image: "/GODS.png",
+  },
   {
     href: "/project/TataMiam",
     title: "Tata Miam",
@@ -126,6 +134,11 @@ const Projets = () => {
 
               {/* Contenu */}
               <div className="flex flex-col gap-3 p-5 flex-1">
+                {project.date && (
+                  <span className="text-xs font-medium text-zinc-500 tracking-wide">
+                    {project.date}
+                  </span>
+                )}
                 <div className="flex items-start justify-between gap-2">
                   <h3 className="font-bold text-lg text-white group-hover:text-teal-400 transition-colors leading-snug">
                     {project.title}

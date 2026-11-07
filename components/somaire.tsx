@@ -4,7 +4,7 @@ const SECTIONS = [
   { num: "1", label: "À propos", href: "#About", desc: "Qui je suis" },
   { num: "2", label: "Compétences", href: "#Skills", desc: "Hardskills & Softskills" },
   { num: "3", label: "Projets", href: "#Projets", desc: "Mes réalisations" },
-  { num: "4", label: "Scolarité", href: "#Scolarité", desc: "Mon parcours scolaire" },
+  { num: "4", label: "formation", href: "#Scolarité", desc: "Mon parcours scolaire" },
   { num: "5", label: "Expériences", href: "#Experience", desc: "Mes stages professionnels" },
   { num: "6", label: "Contact", href: "#contact", desc: "Me joindre" },
 ];

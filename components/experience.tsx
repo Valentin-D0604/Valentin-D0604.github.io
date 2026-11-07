@@ -4,7 +4,7 @@ const TIMELINE = [
   {
     year: "2025+",
     title: "Bachelor en programmation",
-    school: "GTech Lyon",
+    school: "Gaming campus, G.Tech Lyon",
     desc: "Actuellement en deuxième année d'un bachelor dans une école de programmation.",
     current: true,
   },
@@ -13,13 +13,6 @@ const TIMELINE = [
     title: "BAC STI2D SIN",
     school: "Lycée Aux Lazaristes La Salle — Lyon",
     desc: "Sciences et Technologies de l'Industrie et du Développement Durable, option Systèmes d'Information et Numérique.",
-    current: false,
-  },
-  {
-    year: "2021",
-    title: "Brevet des collèges",
-    school: "Saint Nicolas — Toulouse",
-    desc: "Obtenu avec succès au collège Saint Nicolas.",
     current: false,
   },
 ];
@@ -38,7 +31,7 @@ const Experience = () => {
             <span className="flex items-center justify-center w-12 h-12 text-2xl font-bold bg-teal-500 text-black rounded-lg shadow-lg shadow-teal-500/20">
               4
             </span>
-            <h2 className="text-4xl font-extrabold tracking-tight">Ma scolarité</h2>
+            <h2 className="text-4xl font-extrabold tracking-tight">Mes formations</h2>
           </div>
           <div className="w-12 h-px bg-teal-500/50" />
         </div>

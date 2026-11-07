@@ -1,11 +1,56 @@
 import React from "react";
 
-const HARDSKILLS = [
-  { name: "C++", level: 85, detail: "Maîtrisé" },
-  { name: "Git", level: 70, detail: "Intermédiaire" },
-  { name: "DirectX 12", level: 40, detail: "Notions" },
-  { name: "Python", level: 40, detail: "Notions" },
-  { name: "Java", level: 35, detail: "Notions" },
+const SKILL_GROUPS = [
+  {
+    title: "Langages",
+    skills: [
+      {
+        name: "C++",
+        context: "Langage principal, utilisé dans la majorité de mes projets",
+        projects: ["Moteur ECS", "Tata Miam", "Jeu multijoueur", "Brick Breaker"],
+      },
+      {
+        name: "C#",
+        context: "Utilisé avec Unity pour un jeu multijoueur",
+        projects: ["Gods over drinks"],
+      },
+      {
+        name: "Python",
+        context: "Notions",
+        projects: [],
+      },
+      {
+        name: "Java",
+        context: "Notions",
+        projects: [],
+      },
+    ],
+  },
+  {
+    title: "Moteurs & graphisme",
+    skills: [
+      {
+        name: "Unity",
+        context: "plusieur projet personel (procédural par exemple) et Jeu multijoueur en réseau (Netcode for GameObjects)",
+        projects: ["Gods over drinks"],
+      },
+      {
+        name: "DirectX 12",
+        context: "Premiers pas dans un moteur de jeu maison",
+        projects: ["Moteur ECS"],
+      },
+    ],
+  },
+  {
+    title: "Outils",
+    skills: [
+      {
+        name: "Git",
+        context: "Travail collaboratif en équipe",
+        projects: ["Tata Miam", "Gods over drinks"],
+      },
+    ],
+  },
 ];
 
 const SOFTSKILLS = [
@@ -21,7 +66,7 @@ const Skills = () => {
       id="Skills"
       className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-4 py-20"
     >
-      <div className="w-full max-w-3xl flex flex-col items-center gap-12">
+      <div className="relative z-10 w-full max-w-3xl flex flex-col items-center gap-12">
         {/* Header */}
         <div className="flex flex-col items-center gap-3">
           <div className="flex items-center gap-4">
@@ -34,29 +79,39 @@ const Skills = () => {
         </div>
 
         {/* Hardskills */}
-        <div className="w-full">
-          <h3 className="text-xs tracking-widest uppercase text-zinc-500 mb-5 text-center">
+        <div className="w-full flex flex-col gap-8">
+          <h3 className="text-xs tracking-widest uppercase text-zinc-500 text-center">
             HardSkills
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {HARDSKILLS.map((skill) => (
-              <div
-                key={skill.name}
-                className="bg-zinc-900/60 border border-white/5 hover:border-teal-500/30 rounded-xl p-5 transition-all duration-200"
-              >
-                <div className="flex justify-between items-center mb-3">
-                  <span className="font-semibold text-white">{skill.name}</span>
-                  <span className="text-xs text-zinc-500">{skill.detail}</span>
-                </div>
-                <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+
+          {SKILL_GROUPS.map((group) => (
+            <div key={group.title} className="flex flex-col gap-3">
+              <h4 className="text-sm font-semibold text-teal-400">{group.title}</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {group.skills.map((skill) => (
                   <div
-                    className="h-full bg-gradient-to-r from-teal-600 to-teal-400 rounded-full"
-                    style={{ width: `${skill.level}%` }}
-                  />
-                </div>
+                    key={skill.name}
+                    className="bg-zinc-900/60 border border-white/5 hover:border-teal-500/30 rounded-xl p-5 transition-all duration-200 flex flex-col gap-3"
+                  >
+                    <span className="font-semibold text-white">{skill.name}</span>
+                    <p className="text-zinc-400 text-sm leading-relaxed">{skill.context}</p>
+                    {skill.projects.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5">
+                        {skill.projects.map((p) => (
+                          <span
+                            key={p}
+                            className="text-xs bg-teal-500/10 text-teal-400 border border-teal-500/20 px-2.5 py-0.5 rounded-full"
+                          >
+                            {p}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
 
         {/* Softskills */}
